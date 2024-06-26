@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.main-container {
+  background: #dce7ec;
+  min-height: 100vh;
+  padding: 5% 0;
+}
+
+.transaction-container {
+  width: 80%;
+  margin: auto;
+}
+
+.transaction-container > .heading {
+  width: 200px;
+  margin: auto;
+  height: 200px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.transaction-container > div > h1 {
+  font-size: 27px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+input {
+  background: #f3d07e;
+  border: none;
+  padding: 14px 10px;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  width: 300px;
+}
+
+input::placeholder {
+  color: black;
+}
+
+select {
+  background: #f3d07e;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  width: 300px;
+  appearance: none;
+  padding-right: 40px;
+  cursor: pointer;
+  outline: none;
+}
+
+.icon-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #f7f7f7;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+table {
+  width: 100%;
+  background: #f3d07e;
+  border-radius: 5px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 3px solid black;
+  padding: 10px 16px;
+  text-align: center;
+}
+
+table thead tr,
+th {
+  border-top: none;
+}
+
+table tbody tr:first-child th {
+  border-top: none;
+}
+
+table tr td:first-child,
+table tr th:first-child {
+  border-left: none;
+}
+
+table tr td:last-child,
+table tr th:last-child {
+  border-right: none;
+}
+
+table tbody tr,
+td {
+  border-bottom: none;
+}
+
+.empty-array {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 0px -2px black;
+}
+
+.paginations {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-weight: 600;
+  margin-bottom: 120px;
+}
+
+.paginations > div > button {
+  background-color: transparent;
+  border: none;
+  padding: 0 10px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+
+h2 {
+  font-size: 27px;
+  margin-bottom: 15px;
+}
+
+article {
+  background: #f3d07e;
+  width: 35%;
+  height: 175px;
+  border-radius: 8px;
+  padding: 24px 19px;
+  margin-bottom: 120px;
+}
+
+article > div {
+  display: flex;
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+
+article > div > .total-sale {
+  width: 70%;
+}
